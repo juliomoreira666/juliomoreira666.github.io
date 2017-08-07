@@ -8,11 +8,14 @@ padding-right: 0px!important;
 padding-left: 0px!important;
 }
 #body {
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  height: 100%;
 }
-
 #profile-1 .myprofile {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -94,9 +97,16 @@ font-style: normal;
 }
 
 #infos h2 {
+line-height: 1.5em;
+border-bottom: 1px solid black;
 font-size: 2em;
 text-align: center;
 font-family: 'Titillium Web', sans-serif;
 font-style: normal;
 color: #000;
+}
+
+.infos {
+  font-size: 18px;
+  padding: 20px;
 }
