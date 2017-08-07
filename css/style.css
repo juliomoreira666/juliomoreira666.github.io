@@ -110,3 +110,31 @@ color: #000;
   font-size: 18px;
   padding: 20px;
 }
+
+#skills {
+padding: 20px;
+margin-top: 1%;
+background-color: #fff;
+border-radius: 3px;
+color: #000;
+font-family: 'Titillium Web', sans-serif;
+font-style: normal;
+}
+
+#skills h3 {
+  padding: 10px;
+}
+#skills span {
+font-size: 18px;
+}
+
+#skills h2 {
+margin-bottom: 15px;
+line-height: 1.5em;
+border-bottom: 1px solid black;
+font-size: 2em;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+font-style: normal;
+color: #000;
+}
